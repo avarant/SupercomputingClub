@@ -1,0 +1,134 @@
+
+body{
+    color:rgb(23, 44, 70);
+    color:rgb(31, 38, 53);
+    font-family: sans-serif;
+}
+
+.container-fluid{
+    height:50px;
+}
+
+.nav.navbar-nav.navbar-right li a{
+    color:rgb(23, 44, 70);
+    color:rgb(31, 38, 53);
+}
+
+.navbar-collapse{
+    /* background-color:#fff; */
+}
+
+.jumbotron h2{
+    color:rgb(246, 205, 94);
+    font-size: 34px;
+}
+
+.sponsors{
+    margin-bottom:10px;
+}
+
+.footer_text{
+    padding:0;
+    padding-left:10px;
+    margin:0;
+}
+
+.footer_text a{
+    margin-right: 5px;
+}
+
+#desktop-calendar{
+    border-width:0;
+    width:100%;
+}
+
+#mobile-calendar{
+    border-width:0
+}
+
+#navbar-main{
+    background-color:#fff;
+    border-bottom:1px solid rgb(23, 44, 70);
+}
+
+#navbar-icon{
+    height:40px;
+}
+
+#home-banner{
+    background-color:rgb(23, 44, 70);
+    color:#fff;
+    text-align: center;
+    height:520px;
+}
+
+#home-banner-logo{
+    height:250px;
+}
+
+#navbar-logo{
+    margin-top:5px;
+}
+
+#about, #contact{
+    margin-bottom:40px;
+}
+
+#about h2, #contact h2{
+    text-align: center;
+}
+
+#about p{
+    font-size:16px;
+}
+
+#calendar{
+    background-color:rgb(23, 44, 70);
+    width:100%;
+    padding:30px;
+    margin-bottom:30px;
+}
+
+#calendar_wrapper{
+    margin:0 auto;
+}
+
+#footer_wrapper{
+    background-color:rgb(23, 44, 70);
+    color:#fff;
+    width:100%;
+    padding:50px; 
+    height:220px;
+}
+
+#footer{
+    position:absolute;
+    right:100px;
+}
+
+#mailtoclub{
+    margin:0;
+    margin-top:20px;
+}
+
+#mailtoclub a{
+    color:#fff;
+}
+
+@media (max-width: 768px){
+    #calendar-desktop{
+        display: none;
+    }
+    #calendar-mobile{
+        display: block;
+    }
+}
+
+@media (min-width: 768px){
+    #calendar-desktop{
+        display: block;
+    }
+    #calendar-mobile{
+        display:none;
+    }
+}
